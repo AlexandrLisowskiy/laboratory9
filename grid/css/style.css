@@ -46,6 +46,7 @@
     width: 100%;
     background: #fff;
     border-radius: 25px;
+    display: grid;
 }
 
 .btn a {
@@ -61,5 +62,50 @@
 
 .btn:hover {
     transform: scale(1.05);
-    background-color: aliceblue;
+    background-color: #F3F3F3;
+}
+
+.wrapper p {
+    color: #fff;
+    text-align: right;
+}
+
+.t {
+    font-size: 100px;
+    align-self: center;
+}
+
+.d {
+    font-size: 25px;
+    max-width: 700px;
+}
+
+.detail {
+    grid-column: 3/4;
+}
+
+.wrapper-2 {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 60px 30px 1fr 120px;
+}
+
+.side-1 {
+    background: #9A1212;
+    height: 100%;
+}
+
+.side-2 {
+    background: #F3F3F3;
+    height: 100%;
+}
+
+.footer {
+    height: 100%;
+    background: #F3F3F3;
+    display: grid;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 60px;
+    font-size: 25px;
 }
