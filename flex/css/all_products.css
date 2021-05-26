@@ -1,0 +1,13 @@
+.all_products {
+    align-self: center;
+    display: flex;
+    align-items: center;
+}
+
+.all_products img {
+    margin: 0 30px;
+}
+
+.arrow {
+    height: 30%;
+}
