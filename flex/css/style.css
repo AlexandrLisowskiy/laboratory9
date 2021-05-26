@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+#page-1 {
+    position: relative;
+    height: 100vh;
+    background: #9A1212;
+    display: flex;
+    justify-content: end;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-around;
+    padding: 60px;
+    box-sizing: border-box;
+    color: white;
+    text-align: right;
+    z-index: 40;
+}
+
+.bg_img, .vetka{
+    position: absolute;
+    left: 40px;
+    align-self: center;
+}
+
+.btns {
+    display:  flex;
+}
+
+.btn {
+    height: 50px;
+    width: 150px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.btn:nth-child(2) {
+    margin: 0 40px;
+}
+
+.btn a {
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.t {
+    font-size: 100px;
+}
+
+.d {
+    font-size: 25px;
+}
+
+#page-2 {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sides {
+    width: 100%;
+}
+
+.side-1 {
+    content: "";
+    background: #9A1212;
+    width: 100%;
+    height: 60px;
+}
+
+.side-2 {
+    background: #F3F3F3;
+    width: 100%;
+    height: 30px;
+}
+
+.footer {
+    height: 120px;
+    background: #F3F3F3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-left: 40px;
+}
+
+.slider {
+    z-index: 40;
+    display: flex;
+    align-items: center;
+}
+
+.slider > img {
+    height: 60px;
+}
+
+.product {
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product img {
+    height: 400px;
+}
+.product a {
+    text-decoration: none;
+    color: #9A1212;
+    font-size: 25px;
+}
+
+.vetka-2 {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.t-2 {
+    font-size: 70px;
+    letter-spacing: 20px;
+}
+
+.vetka-1 {
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    height: 80vh;
+    z-index: 1;
+}
